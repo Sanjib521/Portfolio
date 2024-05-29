@@ -31,5 +31,3 @@ const AboutContent = () => {
 }
 
 export default AboutContent
-
-// ghfghfff
