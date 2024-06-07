@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./index.css";
 import Home from "./routes/Home";
 import About from "./routes/About";
@@ -9,6 +9,10 @@ import { Route, Routes } from "react-router-dom";
 
 
 function App() {
+  useEffect(()=>{
+    alert("Are Sure To Enter Sanjib Giri Portfolio Site")
+  },[])
+
   return (
     <>
     <Routes>

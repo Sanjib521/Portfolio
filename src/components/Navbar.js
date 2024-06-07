@@ -16,6 +16,8 @@ const Navbar = () => {
         else{setColor(false)}
     };
 
+    window.addEventListener("scroll", changeColor);
+
     return (
         <div className={color? "header header-bg": "header"}>
             <Link to="/">
