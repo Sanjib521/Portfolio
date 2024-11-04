@@ -12,7 +12,7 @@ const Heroimg = () => {
       </div>
       <div className="content">
         <p> HI, I,M A FREELANCER</p>
-        <h1>React Devloper.</h1>
+        <h1>React Devloper</h1>
         <div>
           <Link to="/project" className="btn">Project</Link>
           <Link to="/CONTACT" className="btn btn-light">Contact</Link>
